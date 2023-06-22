@@ -1,0 +1,22 @@
+Periodicals 2 Question number2 Incorrect answer - Pascal's triangle 
+#include<stdio.h>
+int main()
+{
+    int i,j;
+    printf("1");
+    {
+        for (i = 0;i<=7;i++)
+        {
+            for (j = 0;j<=i;j++)
+            printf("1\t");
+            {
+                if(j==0)
+                return 0;
+                else
+                printf("%d\t",&j);
+            }
+            printf("1");
+        }
+        printf("\n");
+    }
+}
